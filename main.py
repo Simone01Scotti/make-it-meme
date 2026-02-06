@@ -78,7 +78,7 @@ class MakeItMeme:
         while True:
             try:
                 num_players = int(input("\n  Quanti giocatori? (2-8): "))
-                if 2 <= num_players <= 8:
+                if 2 <= num_players <= 20:
                     break
                 print("  ❌ Inserisci un numero tra 2 e 8!")
             except ValueError:
